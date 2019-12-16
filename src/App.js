@@ -25,11 +25,24 @@ class App extends Component {
 
           <div className="FormCenter">
             <form className="FormFields" onSubmit={this.handleSubmit}>
+
               <div className="FormField">
                 <label className="FormField__Label" htmlFor="name">Full Name</label>
                 <input type="text" id="name" className="FormField__Input" placeholder="Enter your full name" name="name" />
               </div>
-              </form>
+              <div className="FormField">
+                <label className="FormField__Label" htmlFor="name">Email</label>
+                <input type="email" id="email" className="FormField__Input" placeholder="email" name="email" />
+              </div>
+              <div className="FormField">
+                <label className  ="FormField__Label" htmlFor="name">Password</label>
+                <input type="password" id="password" className="FormField__Input" placeholder="Enter your password" name="password" />
+              </div>
+
+           
+
+
+            </form>
           </div>
         </div>
       </div>
