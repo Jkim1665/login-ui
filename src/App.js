@@ -59,7 +59,7 @@ class App extends Component {
               </div>
           </Route>
           <Route path="/sign-in">
-          <h1>Sign in</h1>
+          <h1>Sign in</h1> 
           </Route>
           </div>
         </div>
